@@ -31,13 +31,13 @@ void RobotMap::init() {
     controlSSsolenoid1.reset(new Solenoid(1));
     lw->AddActuator("ControlSS", "solenoid1", controlSSsolenoid1);
 
-    controlSSsolenoid1.reset(new Solenoid(2));
+    controlSSsolenoid2.reset(new Solenoid(2));
     lw->AddActuator("ControlSS", "solenoid2", controlSSsolenoid2);
 
-    controlSSsolenoid1.reset(new Solenoid(3));
+    controlSSsolenoid3.reset(new Solenoid(3));
     lw->AddActuator("ControlSS", "solenoid3", controlSSsolenoid3);
 
-    controlSSsolenoid1.reset(new Solenoid(4));
+    controlSSsolenoid4.reset(new Solenoid(4));
     lw->AddActuator("ControlSS", "solenoid4", controlSSsolenoid4);
 
     controlSSfrontLS.reset(new DigitalInput(0));
